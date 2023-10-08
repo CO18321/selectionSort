@@ -303,6 +303,11 @@ async function intro(){
 
 }
 state = 1
+
+d3.select("body").on("mouseup", function() {
+  main()
+});
+
 d3.select("body").on("keydown", function() {
     // console.log(window.event)
     if(window.event.key === 'Enter') { // 13 is the key code for Enter
