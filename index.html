@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection sort</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500&display=swap" rel="stylesheet">
+    <!-- <script src="https://d3js.org/d3.v3.min.js"></script> -->
+</head>
+<body>
+    <svg>
+        <!-- <text x="20" y="35" text-anchor="middle" dominant-baseline="central" class="small">My</text> -->
+      <g id="nodeTemplate" class= "node">
+          <circle id="outerCircle" cx="10" cy="0" r="0"></circle>
+          <circle id="blankCircle" cx="10" cy="0" r="0"></circle>
+          <circle id="innerCircle" cx="10" cy="0" r="0"></circle>
+          <text x="10" y="0"></text>
+      </g>
+      <g id="dashedNodeTemplate" class= "dashedNode">
+          <circle cx="100" cy="200" r="0" stroke-width="1" stroke-dasharray="8,8" fill="None" stroke=""></circle>
+      </g>
+
+    </svg>
+</body>
+<script src = "script.js"></script>
+</html>

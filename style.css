@@ -1,0 +1,27 @@
+body {
+    background-color: #2f2f2fff;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center;     /* vertically center */
+    height: 100%;           /* take full viewport height */
+    font-family: lexend;
+    font-weight: 500;
+    margin:0px;
+}
+
+svg {
+    /* width: 1000px; */
+    /* height: 562px; */
+    /* padding:  */
+    /* margin: 0px; */
+    /* border: 2px solid red; */
+    /* display: block; */
+}
+
+.rot {
+    animation: rotate 5s;
+}
+@keyframes rotate {
+    0% {transform: rotateX('90 100 100')};
+    100% {transform: rotateX('360 100 100')}
+}
